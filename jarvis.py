@@ -6,10 +6,10 @@ import random
 import datetime
 import pygame, pyaudio, pywhatkit, requests
 #---------------------------------------------------------------
-weather_API = "ceb94c73027a58062b3744375fb1c7a6"
+weather_API = "your_weather_api_key"
 Dfault_city = "Ahmedabad"
 #-----------------------------------------------------------------------------------------------------
-model_path = "C:\\Users\\DELL\\Desktop\\ak\\Jarvis\\Llama-3.2-3B-Instruct-Q4_0.gguf"
+model_path = "model_path\\Llama-3.2-3B-Instruct-Q4_0.gguf"
 jarvis = GPT4All(model_path)
 #--------------------------------------------------------------------------------------------------------
 engine = pyttsx3.init()
